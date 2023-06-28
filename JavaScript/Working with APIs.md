@@ -10,7 +10,7 @@ A tool that allows your code to talk with (use the goodness from) someone else's
 
 -Can you think of an example of an API you've used?
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled.png)
+![Untitled](Working%20with%20APIs/Untitled.png)
 
 ---
 
@@ -22,19 +22,19 @@ A computer that send my own computer things when I ask it to.
 -In what way do clients and servers interact with each other?
 Client sends a request to a server, and the server sends back a response.
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%201.png)
+![Untitled](Working%20with%20APIs/Untitled%201.png)
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%202.png)
-
----
-
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%203.png)
+![Untitled](Working%20with%20APIs/Untitled%202.png)
 
 ---
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%204.png)
+![Untitled](Working%20with%20APIs/Untitled%203.png)
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%205.png)
+---
+
+![Untitled](Working%20with%20APIs/Untitled%204.png)
+
+![Untitled](Working%20with%20APIs/Untitled%205.png)
 
 What are 3 things your computer (client) might request from a server?
 
@@ -421,11 +421,11 @@ Design pattern to provide a standard way for clients and servers to communicate.
 
 ### Client and server separation
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%206.png)
+![Untitled](Working%20with%20APIs/Untitled%206.png)
 
 Here client and server interact. Here we do not adhere to REST principles. Server sends not just JSON file, but the whole HTML page. It works with computers and phone, they have browsers. But it doesn’t work with devices like smart watch for example. It can’t just take an HTML page and render it (generally we don’t really use browsers because it isn’t comfortable).
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%207.png)
+![Untitled](Working%20with%20APIs/Untitled%207.png)
 
 This is RESTful setup. Server responds with JSON data. Server doesn’t care how the client will use the data. Client will insert the data on its page. It won’t rely on the server to render and HTML page and other stuff. And here any device can use the data. It just takes it and does what it pleases with it. 
 
@@ -442,7 +442,7 @@ When the client makes the request, the server doesn’t maintain any memory abou
 
 ### Accessing “Resources”
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%208.png)
+![Untitled](Working%20with%20APIs/Untitled%208.png)
 
 1. What does it mean for the server to be "Stateless"?
 It forgets the interaction after the response is sent.
@@ -461,7 +461,7 @@ would you expect to use in order to accomplish the following:
 
 ### Nested Resources
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%209.png)
+![Untitled](Working%20with%20APIs/Untitled%209.png)
 
 1. How is a nested resource URL like /bikes/123/reviews
 different from an endpoint like /reviews?
@@ -476,7 +476,7 @@ Variable inside the URL that acts as a placeholder for the real value
 
 ### Query Strings
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2010.png)
+![Untitled](Working%20with%20APIs/Untitled%2010.png)
 
 A way to filter results.
 
@@ -499,11 +499,11 @@ What would you expect the endpoints to be for the following tasks:
 
 ## General Information
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2011.png)
+![Untitled](Working%20with%20APIs/Untitled%2011.png)
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2012.png)
+![Untitled](Working%20with%20APIs/Untitled%2012.png)
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2013.png)
+![Untitled](Working%20with%20APIs/Untitled%2013.png)
 
 ## setTimeout()
 
@@ -554,13 +554,13 @@ setTimeout(callback, 2000)
 
 ## Promises
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2014.png)
+![Untitled](Working%20with%20APIs/Untitled%2014.png)
 
 Fetch request is seen as a Promise object in the console
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2015.png)
+![Untitled](Working%20with%20APIs/Untitled%2015.png)
 
-![Untitled](Working%20with%20APIs%20913e0bb3342a436baf5d300dfe0d116e/Untitled%2016.png)
+![Untitled](Working%20with%20APIs/Untitled%2016.png)
 
 # Async / Await
 
